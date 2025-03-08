@@ -125,11 +125,11 @@
           '';
           
           meta = with pkgs.lib; {
-            description = "Jaming Browser - A privacy-focused web browser";
-            homepage = "https://jaming-browser.org";  # Replace with your actual homepage
+            description = "Jaming Browser - A privacy-focused web browser"; #please change xd 
+            homepage = "https://jaming-browser.org";  # Replace with your actual homepage <--- this does not exsist 
             license = licenses.mit;
             platforms = platforms.linux;
-            maintainers = [ "Your Name" ];
+            maintainers = [ "Straight from my ass" ];
           };
         };
         
@@ -142,7 +142,7 @@
           phases = [ "installPhase" ];
           
           installPhase = ''
-            echo "This would build Jaming Browser from source with branding and privacy enhancements"
+            echo "This would build Jaming Browser from source with privacy enhancements"
             mkdir -p $out/bin
             touch $out/bin/jaming-browser-full
             chmod +x $out/bin/jaming-browser-full
